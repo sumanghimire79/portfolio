@@ -1,0 +1,60 @@
+{
+  "portfolio": [
+    {
+      "cover": "/portfolioImages/htmlW3-signup-progressbar.png",
+      "title": "Signup Site ",
+      "description": " Development of signup news letter using Html and css. The main foucus is to design and develope progress/status",
+      "url": "https://github.com/sumanghimire79/hyf-homework/blob/master/html-css/week3/week3_improved",
+      "live": "https://htmlpreview.github.io/?https://github.com/sumanghimire79/hyf-homework/blob/master/html-css/week3/week3_improved/index.html"
+    },
+    {
+      "cover": "/portfolioImages/js2w1-nameGenerator.png",
+      "title": "Random Name Generator",
+      "description": "The app generates a random name alias for the text inserted in the input field. The technologies being used are Html, css and js",
+      "url": "https://github.com/sumanghimire79/hyf-homework/blob/master/javascript/javascript2/week1",
+      "live": "https://htmlpreview.github.io/?https://github.com/sumanghimire79/hyf-homework/blob/master/javascript/javascript2/week1/index.html"
+    },
+    {
+      "cover": "/portfolioImages/js2w3-fastestPressure.png",
+      "title": "Fastest Pressure Game",
+      "description": " The fun game developed using Html, css and js",
+      "url": "https://github.com/sumanghimire79/hyf-homework/blob/master/javascript/javascript2/week3/js2w3-hw",
+      "live": "https://htmlpreview.github.io/?https://github.com/sumanghimire79/hyf-homework/blob/master/javascript/javascript2/week3/js2w3-hw/index.html"
+    },
+    {
+      "cover": "/portfolioImages/js3w1-weatherReport_giphySearch.png",
+      "title": "weather app & Giphy Search",
+      "description": " The weather app and the giphy search app developed using Html, css and js",
+      "url": "https://github.com/sumanghimire79/hyf-homework/blob/master/javascript/javascript3/week1/js3w1hw",
+      "live": "https://htmlpreview.github.io/?https://github.com/sumanghimire79/hyf-homework/blob/master/javascript/javascript3/week1/js3w1hw/index.html"
+    },
+    {
+      "cover": "/portfolioImages/js3w3-paint.png",
+      "title": "Paint on Canvas",
+      "description": " Javascript class is used to create as number of objects as wanted to created to paint on the html canvas. the use of setInterval is assined to draw different circles of random number,size and colors.",
+      "url": "https://github.com/sumanghimire79/hyf-homework/blob/master/javascript/javascript3/week3/js3w3-hw",
+      "live": "https://htmlpreview.github.io/?https://github.com/sumanghimire79/hyf-homework/blob/master/javascript/javascript3/week3/js3w3-hw/index.html"
+    },
+    {
+      "cover": "/portfolioImages/mealSharing.png",
+      "title": "Meal Sharing app",
+      "description": " Meal sharing app created using react as front-end, node as back-end and MySQL as database. The app is deployed in heroku platform",
+      "url": "https://github.com/sumanghimire79/meal-sharing",
+      "live": "https://hyf-meal-sharing-sumanghimire.herokuapp.com/"
+    },
+    {
+      "cover": "/portfolioImages/portfolio-grid.png",
+      "title": "Portfolio Grid",
+      "description": " This demo portfolio is designed and developed using Html and css-grid",
+      "url": "https://github.com/sumanghimire79/hyf-homework/blob/master/html-css/week1",
+      "live": "https://htmlpreview.github.io/?https://github.com/sumanghimire79/hyf-homework/blob/master/html-css/week1/index.html"
+    },
+    {
+      "cover": "/portfolioImages/website-flex.png",
+      "title": "Portfolio Flex",
+      "description": " This demo portfolio is designed and developed using Html and css-flex ",
+      "url": "https://github.com/sumanghimire79/hyf-homework/blob/master/html-css/week2",
+      "live": "https://htmlpreview.github.io/?https://github.com/sumanghimire79/hyf-homework/blob/master/html-css/week2/index.html"
+    }
+  ]
+}
