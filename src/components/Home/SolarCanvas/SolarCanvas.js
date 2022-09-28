@@ -13,16 +13,17 @@ export const SolarCanvas = ({ draw, height, width }) => {
   })
   return (
     <div id="solar-canvas-container">
-      <>
-        <canvas id="canvas" ref={canvas} width={width} height={height} />
-      </>
       <NavLink exact="true" to="/portfolio">
+        <>
+          <canvas id="canvas" ref={canvas} width={width} height={height} />
+        </>
+        {/* <NavLink exact="true" to="/portfolio"> */}
         <AnimatedLetters
-          strArray={['P', 'O', 'R', 'T', 'F', 'O', 'L', 'I', 'O', '-']}
-          idx={15}
+          strArray={['P', 'O', 'R', 'T', 'F', 'O', 'L', 'I', 'O', '--']}
+          idx={75}
         />
+        <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
       </NavLink>
-      <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
     </div>
   )
 }

@@ -111,9 +111,19 @@ export const Home = () => {
           />
         </h1>
         <h2> Frontend Developer/ JavaScript Expert / openminded </h2>
-        <Link to="/contact" className="flat-button">
-          CONTACT ME
-        </Link>
+        <div className="contact-me-cv-div">
+          <Link to="/contact" className="flat-button">
+            CONTACT ME
+          </Link>
+
+          <a
+            className="flat-button"
+            href="/images_portfolio/suman-resume.pdf"
+            download
+          >
+            CV
+          </a>
+        </div>
       </div>
       <div id="canvasses">
         <SolarCanvas draw={drawSolar} height={300} width={300} />

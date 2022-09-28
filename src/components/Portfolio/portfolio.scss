@@ -9,7 +9,7 @@
   }
   .images-container {
     display: flex;
-    gap: 15px;
+    gap: 10px;
     flex-wrap: wrap;
     padding-bottom: 100px;
     align-items: center;
@@ -17,24 +17,23 @@
   }
 
   .image-box {
-    background-color: #219bdc;
-
+    // background-color: #219bdc;
     display: flex;
     position: relative;
-    height: 25rem;
+    height: 20rem;
     overflow: hidden;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
 
     .portfolio-image {
-      margin-top: 0;
       z-index: 2;
       width: 25rem;
       height: 15rem;
       // object-fit: cover;
       opacity: 90%;
-      border-radius: 15%;
+      border-radius: 10px;
+      border: 1px solid white;
     }
     .content {
       position: absolute;
@@ -43,19 +42,19 @@
       transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
       background: linear-gradient(
         180deg,
-        rgba(0, 0, 0, 0.2) 0,
+        rgba(198, 187, 187, 0.2) 0,
         rgba(0, 0, 0, 1)
       );
-      bottom: -140px;
+      bottom: -115px;
     }
     .title {
-      color: #fff;
+      color: #ffffff;
       font-size: 24px;
       text-align: center;
     }
     .description {
       font-size: 14px;
-      color: #fff;
+      color: #ffd700;
       font-weight: 700;
       text-align: justify;
     }
@@ -63,7 +62,8 @@
       padding: 0 2px;
       margin-left: 5px;
       height: 40px;
-      border: 2px solid #ffd700;
+      border: 0.001px solid #ffd700;
+      background-color: #022c43;
       border-radius: 4px;
       font-size: 14px;
       color: #fff;
@@ -79,7 +79,7 @@
     }
     &:after {
       content: '';
-      background: linear-gradient(180deg, #ffd700, #000);
+      background: linear-gradient(180deg, #022c43, #000);
       position: absolute;
       left: 0;
       right: 0;
@@ -92,8 +92,7 @@
       opacity: 0;
     }
     &:hover:after {
-      // opacity: 0.85;
-      opacity: 90%;
+      opacity: 80%;
     }
 
     &:hover .content {
