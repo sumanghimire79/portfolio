@@ -2,6 +2,8 @@ import './home.scss'
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import { AnimatedLetters } from '../AnimatedLetters/AnimatedLetters'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
 import Loader from 'react-loaders'
 
 import { SolarCanvas } from './SolarCanvas/SolarCanvas'
@@ -113,16 +115,8 @@ export const Home = () => {
         <h2> Frontend Developer/ JavaScript Expert / openminded </h2>
         <div className="contact-me-cv-div">
           <Link to="/contact" className="flat-button">
-            CONTACT ME
+            CONTACT ME <FontAwesomeIcon icon={faUser} color="#ffd700" />
           </Link>
-
-          <a
-            className="flat-button"
-            href="/images_portfolio/suman-resume.pdf"
-            download
-          >
-            CV
-          </a>
         </div>
       </div>
       <div id="canvasses">

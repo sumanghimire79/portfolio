@@ -1,9 +1,7 @@
 #solar-canvas-container {
   z-index: -5;
-
-  width: 300px;
-  height: 300px;
-
+  width: 40rem;
+  height: 40rem;
   position: absolute;
   top: 0;
   right: 15%;
@@ -15,9 +13,32 @@
   border-radius: 9%;
   text-align: center;
   align-content: center;
-  // display: flex;
+  justify-content: center;
+  animation: fadeIn 1s 1.8s backwards;
+  display: flex;
   // flex-direction: column;
+  .flat-button {
+    color: #ffd700;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #ffd700;
+    margin-top: 25px;
+    animation: fadeIn 1s 1.8s backwards;
+    &:hover {
+      background-color: #ffd700;
+      color: #333;
+    }
+  }
   a {
     color: gold;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
