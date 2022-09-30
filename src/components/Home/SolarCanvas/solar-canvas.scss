@@ -8,15 +8,19 @@
   bottom: 0;
   left: auto;
   margin: auto;
-  // background-color: rgb(10, 35, 161);
   opacity: 90%;
   border-radius: 9%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
   align-content: center;
   justify-content: center;
   animation: fadeIn 1s 1.8s backwards;
-  display: flex;
-  // flex-direction: column;
+  .portfolio-cv {
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+  }
   .flat-button {
     color: #ffd700;
     font-size: 13px;
@@ -35,10 +39,6 @@
   }
   a {
     color: gold;
-    align-items: center;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    text-decoration: none;
   }
 }

@@ -14,12 +14,12 @@ export const SolarCanvas = ({ draw, height, width }) => {
   return (
     <div id="solar-canvas-container">
       <NavLink exact="true" to="/portfolio">
-        <>
-          <canvas id="canvas" ref={canvas} width={width} height={height} />
-        </>
-        {/* <NavLink exact="true" to="/portfolio"> */}
-        <div>
-          <span className="flat-button">
+        <canvas id="canvas" ref={canvas} width={width} height={height} />
+      </NavLink>
+
+      <div className="portfolio-cv">
+        <span className="flat-button">
+          <NavLink exact="true" to="/portfolio">
             <AnimatedLetters
               strArray={[
                 'P',
@@ -36,20 +36,17 @@ export const SolarCanvas = ({ draw, height, width }) => {
               ]}
               idx={75}
             />
-          </span>
-          <span>
-            <a
-              className="flat-button"
-              href="/images_portfolio/suman-resume.pdf"
-              download
-            >
-              <span>
-                CV <FontAwesomeIcon icon={faFile} color="#ffd700" />
-              </span>
-            </a>
-          </span>
-        </div>
-      </NavLink>
+          </NavLink>
+        </span>
+
+        <span>
+          <a href="/images_portfolio/suman-resume.pdf" download>
+            <span className="flat-button">
+              CV <FontAwesomeIcon icon={faFile} color="#ffd700" />
+            </span>
+          </a>
+        </span>
+      </div>
     </div>
   )
 }

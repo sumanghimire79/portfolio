@@ -5,12 +5,13 @@
 
   .text-zone {
     width: 100%;
-    // background-color: #28a4d9;
+    font-size: 1.5rem;
+    text-align: justify;
   }
 
   .stage-cube-cont {
     width: 50%;
-    height: 100%;
+    height: 90%;
     top: 0;
     padding-top: 18%;
     margin-left: 0;
@@ -119,6 +120,7 @@
     margin: 0 2rem;
     padding: 0 2rem;
     width: 80%;
+    font-size: 1rem;
   }
   .stage-cube-cont {
     display: none;

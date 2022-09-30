@@ -1,25 +1,18 @@
 {
   "portfolio": [
     {
-      "cover": "/images_portfolio/htmlW3-signup-progressbar.png",
-      "title": "Signup Site ",
-      "description": " Development of signup news letter using Html and css. The main foucus is to design and develope progress/status",
-      "url": "https://github.com/sumanghimire79/hyf-homework/blob/master/html-css/week3/week3_improved",
-      "live": "https://htmlpreview.github.io/?https://github.com/sumanghimire79/hyf-homework/blob/master/html-css/week3/week3_improved/index.html"
+      "cover": "/images_portfolio/simply-spices.png",
+      "title": "Simply Spices ",
+      "description": "Simply Spices (HYF fInal project, building interactive & responsive Web App)",
+      "url": "https://github.com/sumanghimire79/simply-spices",
+      "live": "https://simply-spices.herokuapp.com/"
     },
     {
-      "cover": "/images_portfolio/js2w1-nameGenerator.png",
-      "title": "Random Name",
-      "description": "The app generates a random name alias for the text inserted. The technologies used are Html, css, js",
-      "url": "https://github.com/sumanghimire79/hyf-homework/blob/master/javascript/javascript2/week1",
-      "live": "https://htmlpreview.github.io/?https://github.com/sumanghimire79/hyf-homework/blob/master/javascript/javascript2/week1/index.html"
-    },
-    {
-      "cover": "/images_portfolio/js2w3-fastestPressure.png",
-      "title": "Fastest Pressure Game",
-      "description": " The fun game developed using Html, css and js",
-      "url": "https://github.com/sumanghimire79/hyf-homework/blob/master/javascript/javascript2/week3/js2w3-hw",
-      "live": "https://htmlpreview.github.io/?https://github.com/sumanghimire79/hyf-homework/blob/master/javascript/javascript2/week3/js2w3-hw/index.html"
+      "cover": "/images_portfolio/mealSharing.png",
+      "title": "Meal Sharing app",
+      "description": " The app developed using react as front-end, nodejs as back-end and MySQL as database. Deployed in heroku platform",
+      "url": "https://github.com/sumanghimire79/meal-sharing",
+      "live": "https://hyf-meal-sharing-sumanghimire.herokuapp.com/"
     },
     {
       "cover": "/images_portfolio/js3w1-weatherReport_giphySearch.png",
@@ -36,11 +29,25 @@
       "live": "https://htmlpreview.github.io/?https://github.com/sumanghimire79/hyf-homework/blob/master/javascript/javascript3/week3/js3w3-hw/index.html"
     },
     {
-      "cover": "/images_portfolio/mealSharing.png",
-      "title": "Meal Sharing app",
-      "description": " The app developed using react as front-end, nodejs as back-end and MySQL as database. Deployed in heroku platform",
-      "url": "https://github.com/sumanghimire79/meal-sharing",
-      "live": "https://hyf-meal-sharing-sumanghimire.herokuapp.com/"
+      "cover": "/images_portfolio/js2w3-fastestPressure.png",
+      "title": "Fastest Pressure Game",
+      "description": " The fun game developed using Html, css and JavaScript",
+      "url": "https://github.com/sumanghimire79/hyf-homework/blob/master/javascript/javascript2/week3/js2w3-hw",
+      "live": "https://htmlpreview.github.io/?https://github.com/sumanghimire79/hyf-homework/blob/master/javascript/javascript2/week3/js2w3-hw/index.html"
+    },
+    {
+      "cover": "/images_portfolio/js2w1-nameGenerator.png",
+      "title": "Random Name",
+      "description": "The app generates a random name alias for the text inserted. The technologies used are Html, css, js",
+      "url": "https://github.com/sumanghimire79/hyf-homework/blob/master/javascript/javascript2/week1",
+      "live": "https://htmlpreview.github.io/?https://github.com/sumanghimire79/hyf-homework/blob/master/javascript/javascript2/week1/index.html"
+    },
+    {
+      "cover": "/images_portfolio/htmlW3-signup-progressbar.png",
+      "title": "Signup Site ",
+      "description": " Development of signup news letter using Html and css. The main foucus is to design and develope progress/status",
+      "url": "https://github.com/sumanghimire79/hyf-homework/blob/master/html-css/week3/week3_improved",
+      "live": "https://htmlpreview.github.io/?https://github.com/sumanghimire79/hyf-homework/blob/master/html-css/week3/week3_improved/index.html"
     },
     {
       "cover": "/images_portfolio/portfolio-grid.png",
