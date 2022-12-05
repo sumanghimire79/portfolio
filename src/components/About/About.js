@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import {
   faNode,
   // faCss3,
@@ -23,7 +24,7 @@ export const About = () => {
   }, [])
 
   return (
-    <>
+    <div className="about-page-outer-container">
       <div className="container about-page">
         <div className="text-zone">
           <h1>
@@ -49,7 +50,21 @@ export const About = () => {
             enthusiast, and tech-obsessed!!!
           </p>
         </div>
-
+        <div className="contact-me-cv-div">
+          <Link to="/contact" className="flat-button">
+            CONTACT ME
+          </Link>
+          <Link exact="true" to="/portfolio" className="flat-button">
+            PORTFOLIO
+          </Link>
+          <a
+            className="flat-button"
+            href="/images_portfolio/suman-resume.pdf"
+            download
+          >
+            CV
+          </a>
+        </div>
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
@@ -74,6 +89,6 @@ export const About = () => {
         </div>
       </div>
       <Loader type="pacman" />
-    </>
+    </div>
   )
 }

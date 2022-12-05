@@ -97,10 +97,6 @@ export const Contact = () => {
         </div>
         <div className="info-map">
           Suman ghimire
-          <br />
-          ishøj
-          <br />
-          Danmark <br />
           <span>
             <a href="mailto:sumanghimire79@yahoo.com">
               sumanghimire79@yahoo.com
@@ -109,7 +105,7 @@ export const Contact = () => {
         </div>
         <div className="map-wrap">
           <MapContainer
-            center={[55.614, 12.35625]}
+            center={[55.61157, 12.35942]}
             zoom={13}
             scrollWheelZoom={true}
           >
@@ -117,9 +113,10 @@ export const Contact = () => {
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            <Marker position={[55.614, 12.35625]}>
+            <Marker position={[55.60389, 12.3888]}>
               <Popup>
-                Suman lives here !<br /> You are welcome to visit Ishøj :)
+                Ishøj Beach where Suman goes morning walks and enjoys summer !{' '}
+                <br /> You are welcome to visit :)
               </Popup>
             </Marker>
           </MapContainer>
