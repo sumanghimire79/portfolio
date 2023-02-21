@@ -1,11 +1,19 @@
 {
   "portfolio": [
     {
+      "cover": "/images_portfolio/blog.png",
+      "title": "Blog ",
+      "description": "html css </br> based blog",
+      "url": " https://github.com/sumanghimire79/blog",
+      "live": "https://sumanghimire79.github.io/blog/"
+    },
+    {
       "cover": "/images_portfolio/simply-spices.png",
       "title": "Simply Spices ",
       "description": "Simply Spices (HYF fInal project, building interactive & responsive Web App)",
       "url": "https://github.com/sumanghimire79/simply-spices",
-      "live": "https://staging-webshop-class20-fp.herokuapp.com/"
+      "liveXXX": "https://staging-webshop-class20-fp.herokuapp.com/",
+      "live": "https://simply-spices.herokuapp.com/"
     },
     {
       "cover": "/images_portfolio/mealSharing.png",
