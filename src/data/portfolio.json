@@ -1,6 +1,13 @@
 {
   "portfolio": [
     {
+      "cover": "/images_portfolio/C_NET.png",
+      "title": "C# .NET Projects ",
+      "description": "Dotnet masterclass projects at HYF/Visma e-conomic",
+      "url": " https://github.com/sumanghimire79/hyf-dotnet-masterclass",
+      "live": "https://github.com/sumanghimire79/hyf-dotnet-masterclass"
+    },
+    {
       "cover": "/images_portfolio/blog.png",
       "title": "Blog ",
       "description": "html css </br> based blog",

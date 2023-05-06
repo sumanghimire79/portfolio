@@ -35,19 +35,20 @@ export const About = () => {
             />
           </h1>
           <p>
-            I'm very ambitious front-end developer looking for a role in an IT
-            company with the opportunity to work with the latest technologies
-            such as react, JavaScript, node etc on challenging and diverse
-            projects.
+            I'm looking for a role in an IT company with the opportunity to work
+            with the technologies such as React, Node, MySQL, C# .NET etc.
           </p>
           <p align="LEFT">
-            I'm cooperative, openminded, naturally curious, and perpetually
-            working on improving my chops one design problem at a time.
+            I speak fluent English and speak Danish at a conversational level. I
+            am self-driven, curious, helpful and have worked in a collaborative
+            environment. I have a masters degree in ICTE from Aalborg
+            University, Copenhagen. I have been through a programming bootcamp
+            on React-Node-MySQL and also recently up-skilled in .NET C# web
+            programming. I am motivated to learn new technlogies.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of two children, a sports fanatic, photography
-            enthusiast, and tech-obsessed!!!
+            I have a praisable feedback from my previous job roles working in an
+            selfinitiative collaborative environment !!!
           </p>
         </div>
         <div className="contact-me-cv-div">

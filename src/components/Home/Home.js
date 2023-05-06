@@ -112,7 +112,7 @@ export const Home = () => {
             idx={22}
           />
         </h1>
-        <h2> Frontend Developer/ JavaScript Expert / openminded </h2>
+        <h2> Web-Developer / React-Node-MySQL / C# .NET </h2>
         <div className="contact-me-cv-div">
           <Link to="/contact" className="flat-button">
             CONTACT ME <FontAwesomeIcon icon={faUser} color="#ffd700" />
