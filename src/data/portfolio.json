@@ -8,8 +8,22 @@
       "live": "https://github.com/sumanghimire79/hyf-dotnet-masterclass"
     },
     {
+      "cover": "/images_portfolio/freecodecamp.png",
+      "title": "freeCodeCamp",
+      "description": "link to freeCodeCamp ................ ............... ................",
+      "url": "https://www.freecodecamp.org/sumanghimire79",
+      "live": "https://www.freecodecamp.org/sumanghimire79"
+    },
+    {
+      "cover": "/images_portfolio/fccP.jpg",
+      "title": "freeCodeCamp projects",
+      "description": "List of free code camp Projects on git hub ......... ...............",
+      "url": "https://github.com/sumanghimire79/freeCodeCamp-projects",
+      "live": "https://sumanghimire79.github.io/freeCodeCamp-projects/"
+    },
+    {
       "cover": "/images_portfolio/blog.png",
-      "title": "Blog ",
+      "title": "Blog",
       "description": "html css </br> based blog",
       "url": " https://github.com/sumanghimire79/blog",
       "live": "https://sumanghimire79.github.io/blog/"
