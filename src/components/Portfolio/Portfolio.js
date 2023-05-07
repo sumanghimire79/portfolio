@@ -15,8 +15,6 @@ export const Portfolio = () => {
     }
   }, [])
 
-  console.log(portfolioData)
-
   const renderPortfolio = (portfolio) => {
     return (
       <div className="images-container">
@@ -61,7 +59,7 @@ export const Portfolio = () => {
             idx={15}
           />
         </h1>
-        <div>{renderPortfolio(portfolioData.portfolio)}</div>
+        {renderPortfolio(portfolioData.portfolio)}
       </div>
 
       <Loader type="pacman" />

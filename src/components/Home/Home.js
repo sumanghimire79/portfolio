@@ -1,15 +1,12 @@
 import './home.scss'
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
-import LogoTitle from '../../assets/images/logo-s.png'
 import { AnimatedLetters } from '../AnimatedLetters/AnimatedLetters'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
 import Loader from 'react-loaders'
 
 import { SolarCanvas } from './SolarCanvas/SolarCanvas'
-
-import suns from './sun1.png'
-import earths from './earth1.png'
-import moons from './moon1.png'
 
 export const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -42,9 +39,9 @@ export const Home = () => {
   const moon = new Image()
   const earth = new Image()
   function init() {
-    sun.src = suns
-    moon.src = moons
-    earth.src = earths
+    sun.src = '/images/sun.png'
+    moon.src = '/images/moon.png'
+    earth.src = '/images/earth.png'
     window.requestAnimationFrame(drawSolar)
   }
 
@@ -101,7 +98,8 @@ export const Home = () => {
           <br />
           <span className={`${letterClass} _13`}> I</span>
           <span className={`${letterClass} _14`}> 'm</span>
-          <img src={LogoTitle} alt="developer" />
+          <img src="images/logo-s.png" alt="developer" />
+
           <AnimatedLetters
             letterClass={letterClass}
             strArray={nameArray}
@@ -114,10 +112,12 @@ export const Home = () => {
             idx={22}
           />
         </h1>
-        <h2> Frontend Developer/ JavaScript Expert / openminded </h2>
-        <Link to="/contact" className="flat-button">
-          CONTACT ME
-        </Link>
+        <h2> Web-Developer / React-Node-MySQL / C# .NET </h2>
+        <div className="contact-me-cv-div">
+          <Link to="/contact" className="flat-button">
+            CONTACT ME <FontAwesomeIcon icon={faUser} color="#ffd700" />
+          </Link>
+        </div>
       </div>
       <div id="canvasses">
         <SolarCanvas draw={drawSolar} height={300} width={300} />
